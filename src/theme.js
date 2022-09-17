@@ -1,5 +1,10 @@
 import { extendTheme } from '@chakra-ui/react'
 
+const fonts = {
+  heading: `'Lato'`,
+  body: `'Lato'`
+}
+
 const colors = {
   brand: {
     lightGoldenrodYellow: '#EFECCA',
@@ -10,4 +15,4 @@ const colors = {
   },
 }
 
-export const theme = extendTheme({ colors })
+export const theme = extendTheme({ colors, fonts })
