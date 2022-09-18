@@ -110,14 +110,15 @@ export function Home() {
           <Container>
               <HStack spacing={12}>
                 <Button 
-                  colorScheme="brand.atomicTangerine"
-                  bg="brand.atomicTangerine"
+                  // colorScheme="brand.atomicTangerine"
+                  bgGradient='linear(to-r, brand.atomicTangerine, brand.darkLiver)'
                   color="white" 
                   size="lg"
                   p="0 4rem"
                   _active={{
                     transform: "scale(0.9)"
                   }}
+                  _hover
                   boxShadow="dark-lg"
                 >
                   Hire Me
